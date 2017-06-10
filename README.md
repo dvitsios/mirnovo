@@ -1,4 +1,4 @@
---------------
+# Installation
  1. Download mirnovo_pkg (.tar.gz file) from either Linux or MACOSX folder (depending on the OS on your machine). 
  2. Untar pkg: tar xvzf mirnovo_pkg_[linux|macosx].tar.gz
  3. cd mirnovo_pkg_[linux|macosx]
