@@ -24,15 +24,15 @@ You need to download at least one training model (and optionally a genome) prior
 
 For more info see details below:
 
-	- Download / Install reference genome
-	- Download Training models 
+	4. Download / Install reference genome
+	5. Download Training models 
 
 
 
 
 ## 3. Run
 _[Important Note]:_
-you need to call mirnovo.pl from inside the `bin/` directory!
+you need to call mirnovo.pl from inside the `bin/` directory.
 
 Output is stored under `tmp/` directory. A custom output sub-dir name may be defined using the `-o` option.
 
@@ -43,13 +43,13 @@ Output is stored under `tmp/` directory. A custom output sub-dir name may be def
 ```
 
 
-##### - Example run without a reference genome (-g NA option):
+##### - Example run without a reference genome (`-g NA` option):
 ```
  ./mirnovo.pl -i ../example_file.tallied.gz -g NA -t hsa -o example_run
 ```
 
 
-##### - Example run without generating pdf files with coverage profiles and hairpins (--disable-pdf option):
+##### - Example run without generating pdf files with coverage profiles and hairpins (`--disable-pdf` option):
 (allows for faster execution time, especially for large files):
 ```
  ./mirnovo.pl -i ../example_file.tallied.gz -g hsa -t hsa -o example_run --disable-pdf
