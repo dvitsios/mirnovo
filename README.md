@@ -67,7 +67,7 @@ Output is stored under `tmp/` directory. A custom output sub-dir name may be def
 
 e.g.: `./download_genome.pl dme`
 
-For more info check: http://wwwdev.ebi.ac.uk/enright-dev/mirnovo-standalone-pkg/Genome-Annotation-1.0
+For more info see: http://wwwdev.ebi.ac.uk/enright-dev/mirnovo-standalone-pkg/Genome-Annotation-1.0
 
 (see _README_ file).
 
