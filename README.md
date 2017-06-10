@@ -2,7 +2,7 @@ mirnovo - Tutorial
 ==================
 
 
-## Installation
+## 1. Installation
  1. Download mirnovo_pkg (.tar.gz file) from either Linux or MACOSX folder (depending on the OS on your machine). 
  2. Untar pkg: tar xvzf mirnovo_pkg_[linux|macosx].tar.gz
  3. cd mirnovo_pkg_[linux|macosx]
@@ -17,7 +17,7 @@ mirnovo - Tutorial
 
 
 
-## Configuration
+## 2. Configuration
 _[!] mirnovo comes with no pre-installed training models and/or genomes [!]_
 
 You need to download at least one training model (and optionally a genome) prior to run.
@@ -30,7 +30,7 @@ For more info see details below:
 
 
 
-## Run
+## 3. Run
 _[Important Note]:_
 you need to call mirnovo.pl from inside the `bin/` directory!
 
@@ -59,7 +59,7 @@ Output is stored under `tmp/` directory. A custom output sub-dir name may be def
 
 
 
-## Download / Install reference genome
+## 4. Download / Install reference genome
 ```
  cd bin
  ./download_genome.pl [genome_id]
@@ -75,7 +75,7 @@ For more info check: http://wwwdev.ebi.ac.uk/enright-dev/mirnovo-standalone-pkg/
 
 
 
-## Download Training models
+## 5. Download Training models
 ```
  cd bin
  ./download_training_model.pl [model_id]
