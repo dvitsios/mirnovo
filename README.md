@@ -1,5 +1,5 @@
-** mirnovo - Tutorial **
-------------------------
+mirnovo - Tutorial
+==================
 
 
 ## Installation
