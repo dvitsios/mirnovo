@@ -7,7 +7,7 @@ mirnovo - Tutorial
  2. Untar pkg: tar xvzf mirnovo_pkg_[linux|macosx].tar.gz
  3. cd mirnovo_pkg_[linux|macosx]
 
-### Dependencies
+#### Dependencies
 - Python (tested with v2.7.10)
 - Perl (tested with v5.24.1)
 - R (tested with v3.2.2)
