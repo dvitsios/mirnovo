@@ -14,32 +14,36 @@
 
 
 # Configuration
-[!] mirnovo comes with no pre-installed training models and/or genomes [!]
+_[!] mirnovo comes with no pre-installed training models and/or genomes [!]_
 
 You need to download at least one training model (and optionally a genome) prior to run.
 
 For more info see details below:
---> D: Download / Install reference genome
---> E: Download Training models 
+
+	- Download / Install reference genome
+	- Download Training models 
 
 
 
 
 # Run
-[Important Note]: you need to call mirnovo.pl from inside the bin/ directory!
-Output is stored under tmp/ directory. A custom output sub-dir name may be defined using the -o option.
+_[Important Note]:_
+you need to call mirnovo.pl from inside the `bin/` directory!
 
+Output is stored under `tmp/` directory. A custom output sub-dir name may be defined using the `-o` option.
+
+##### basic example run:
 ```
  cd bin 
  ./mirnovo.pl -i ../example_file.tallied.gz -g hsa -t hsa -o example_run 
 ```
 
-#### example run without a reference genome (-g NA option):
+##### example run without a reference genome (-g NA option):
 ```
  ./mirnovo.pl -i ../example_file.tallied.gz -g NA -t hsa -o example_run
 ```
 
-#### example run without generating pdf files with coverage profiles and hairpins (--disable-pdf option)
+##### example run without generating pdf files with coverage profiles and hairpins (--disable-pdf option)
 (allows for faster execution time, especially for large files):
 ```
  ./mirnovo.pl -i ../example_file.tallied.gz -g hsa -t hsa -o example_run --disable-pdf
@@ -58,7 +62,8 @@ Output is stored under tmp/ directory. A custom output sub-dir name may be defin
 e.g.: `./download_genome.pl dme`
 
 For more info check: http://wwwdev.ebi.ac.uk/enright-dev/mirnovo-standalone-pkg/Genome-Annotation-1.0
---> README file.
+
+(--> _README file_).
 
 
 
