@@ -1,4 +1,6 @@
-# Installation
+mirnovo
+------
+## Installation
  1. Download mirnovo_pkg (.tar.gz file) from either Linux or MACOSX folder (depending on the OS on your machine). 
  2. Untar pkg: tar xvzf mirnovo_pkg_[linux|macosx].tar.gz
  3. cd mirnovo_pkg_[linux|macosx]
@@ -13,7 +15,7 @@
 
 
 
-# Configuration
+## Configuration
 _[!] mirnovo comes with no pre-installed training models and/or genomes [!]_
 
 You need to download at least one training model (and optionally a genome) prior to run.
@@ -26,7 +28,7 @@ For more info see details below:
 
 
 
-# Run
+## Run
 _[Important Note]:_
 you need to call mirnovo.pl from inside the `bin/` directory!
 
