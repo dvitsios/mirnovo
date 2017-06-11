@@ -18,7 +18,7 @@ mirnovo - Tutorial
 
 
 ## 2. Configuration
-**_[Important Note]_**: mirnovo comes with no pre-installed training models and/or genomes.
+**_[Important Note]:_** mirnovo comes with no pre-installed training models and/or genomes.
 
 You need to download at least one training model (and optionally a genome) prior to run.
 
