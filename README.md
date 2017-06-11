@@ -18,7 +18,7 @@ mirnovo - Tutorial
 
 
 ## 2. Configuration
-_[!] mirnovo comes with no pre-installed training models and/or genomes [!]_
+**_[Important Note]_**: mirnovo comes with no pre-installed training models and/or genomes.
 
 You need to download at least one training model (and optionally a genome) prior to run.
 
@@ -31,7 +31,7 @@ For more info see details below:
 
 
 ## 3. Run
-_[Important Note]:_
+**_[Important Note]:_**
 you need to call mirnovo.pl from inside the `bin/` directory.
 
 Output is stored under `tmp/` directory. A custom output sub-dir name may be defined using the `-o` option.
