@@ -96,7 +96,7 @@ http://wwwdev.ebi.ac.uk/enright-dev/mirnovo-standalone-pkg/Training-Models-1.0
 
 However, inherent sequence clustering steps (initial and refined) of the mirnovo pipeline may be imperfect in some cases and thus affect, even at a low level, the yielded expression data. 
 
-Thus, in order to extract even more accurate expression data we have expanded [chimira](http://wwwdev.ebi.ac.uk/enright-dev/chimira/), a method that was previously published in our lab (Vitsios & Enright, Bioinformatics, 2015). 
+Thus, in order to extract even more accurate expression data we have expanded [chimira](http://wwwdev.ebi.ac.uk/enright-dev/chimira/), a method that was previously published in our lab ([Vitsios & Enright, Bioinformatics, 2015](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btv380)). 
 
 In that case, [chimira](http://wwwdev.ebi.ac.uk/enright-dev/chimira/) serves as a mirnovo extension, allowing the user to upload a custom set of hairpin sequences (e.g. known and/or novel hairpins predicted by mirnovo) and then align their input files against this reference set to get mature miRNA expression counts. 
 
