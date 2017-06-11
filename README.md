@@ -90,7 +90,7 @@ http://wwwdev.ebi.ac.uk/enright-dev/mirnovo-standalone-pkg/Training-Models-1.0
 
 
 
-## 6. miRNA quantification with [Chimira](http://wwwdev.ebi.ac.uk/enright-dev/chimira/).
+## 6. miRNA quantification (known/novel) with [Chimira](http://wwwdev.ebi.ac.uk/enright-dev/chimira/).
 
 [Mirnovo](http://wwwdev.ebi.ac.uk/enright-dev/mirnovo/) is able to predict both hairpins and mature miRNAs, providing count data in the latter case. 
 
