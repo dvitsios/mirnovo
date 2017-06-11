@@ -90,9 +90,9 @@ http://wwwdev.ebi.ac.uk/enright-dev/mirnovo-standalone-pkg/Training-Models-1.0
 
 
 
-## 6. miRNA quantification with chimira.
+## 6. miRNA quantification with [Chimira](wwwdev.ebi.ac.uk/enright-dev/chimira/).
 
-Mirnovo is able to predict both hairpins and mature miRNAs, providing count data in the latter case. 
+[Mirnovo](wwwdev.ebi.ac.uk/enright-dev/mirnovo/) is able to predict both hairpins and mature miRNAs, providing count data in the latter case. 
 
 However, inherent sequence clustering steps (initial and refined) of the mirnovo pipeline may be imperfect in some cases and thus affect, even at a low level, the yielded expression data. 
 
@@ -100,7 +100,7 @@ Thus, in order to extract even more accurate expression data we have expanded [c
 
 In that case, [chimira](wwwdev.ebi.ac.uk/enright-dev/chimira/) serves as a mirnovo extension, allowing the user to upload a custom set of hairpin sequences (e.g. known and/or novel hairpins predicted by mirnovo) and then align their input files against this reference set to get mature miRNA expression counts. 
 
-All uploaded files are merged and sequences with an alignment identity over 0.90 are collapsed. As an additional functionality, [chimira](wwwdev.ebi.ac.uk/enright-dev/chimira/) is able to generate coverage profiles of each identified mature miRNA and the secondary structure of the corresponding hairpin reference hit
+All uploaded reference files are merged and sequences with an alignment identity over 0.90 are collapsed. As an additional functionality, [chimira](wwwdev.ebi.ac.uk/enright-dev/chimira/) is able to generate coverage profiles of each identified mature miRNA and the secondary structure of the corresponding hairpin reference hit.
 
 
 
