@@ -107,5 +107,5 @@ All uploaded reference files are merged and sequences with an alignment identity
 
 
 
-### Precomplied binaries are provided with the tool, for mac os and linux platforms: 
-vsearch, muscle, blastn, blastall, fasta_formatter, cdhit, bowtie2, twoBitToFa, twoBitInfo, faToTwoBit, RNAfold, RNAplot.  
+### Precomplied binaries (_from third parties_) are provided with the tool, for mac os and linux platforms: 
+```vsearch, muscle, blastn, blastall, fasta_formatter, cdhit, bowtie2, twoBitToFa, twoBitInfo, faToTwoBit, RNAfold, RNAplot.```  
