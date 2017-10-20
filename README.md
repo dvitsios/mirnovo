@@ -116,3 +116,13 @@ All uploaded reference files are merged and sequences with an alignment identity
 
 ### Precomplied binaries (_from third parties_) are provided with the tool, for mac os and linux platforms: 
 ```vsearch, muscle, blastn, blastall, fasta_formatter, cdhit, bowtie2, twoBitToFa, twoBitInfo, faToTwoBit, RNAfold, RNAplot.```  
+
+
+---
+If you use mirnovo for your research, please kindly cite the following paper: 
+
+["Mirnovo: genome-free prediction of microRNAs from small RNA sequencing data and single-cells using decision forests"](https://academic.oup.com/nar/article/4210935/Mirnovo-genome-free-prediction-of-microRNAs-from)
+
+DM Vitsios, E Kentepozidou, L Quintais, E Benito-Gutiérrez, S van Dongen, MP Davis and AJ Enright. 
+
+**Nucleic Acids Research** (2017), doi: [https://doi.org/10.1093/nar/gkx836](https://doi.org/10.1093/nar/gkx836)
