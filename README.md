@@ -31,8 +31,15 @@ For more info see details below:
 
 
 ## 3. Run
-**_[Important Note]:_**
+**_[Important Note - 1]:_**
 you need to call mirnovo.pl from inside the `bin/` directory.
+
+**_[Important Note - 2]:_**
+You should not merge multiple files together prior to mirnovo's analysis. **Each file should be analysed separately!** 
+
+This is due to the fact that clustering steps' efficiency (which are part of the mirnovo pipeline) may decrease as the sequence complexity of a sample becomes higher (i.e. when the number of unique sequence variants grows significantly). 
+Please refer to the **Parameter specification** section of [mirnovo’s paper](https://academic.oup.com/nar/article/4210935/Mirnovo-genome-free-prediction-of-microRNAs-from) for more information.
+
 
 Output is stored under `tmp/` directory. A custom output sub-dir name may be defined using the `-o` option.
 
