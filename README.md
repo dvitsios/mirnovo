@@ -1,6 +1,6 @@
 mirnovo - Standalone version Tutorial
 ==================
-### (Web version is available here): [http://wwwdev.ebi.ac.uk/enright-dev/mirnovo/index.php](http://wwwdev.ebi.ac.uk/enright-dev/mirnovo/index.php)
+### (Web version is available here: [http://wwwdev.ebi.ac.uk/enright-dev/mirnovo/index.php](http://wwwdev.ebi.ac.uk/enright-dev/mirnovo/index.php))
 
 
 ## 1. Installation
